@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Large model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+model_cache/
+
+# Large data files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.bai
+*.vcf
+*.bcf
+
+# FASTA/raw sequence (goes on HuggingFace/SRA instead)
+phase3_fasta/
+raw_reads/
+*.fasta.gz
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Conda
+.conda/
+*.conda
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.jupyter/
+*.ipynb_checkpoints
+
+# R (not applicable here but just in case)
+*.Rdata
+*.rds
+*.RData
+
+# Credentials — NEVER commit these
+*.env
+secrets.txt
+hf_token.txt
+api_key.txt
+config_secrets.py
+
+# Temp/scratch
+tmp/
+scratch/
+temp/
